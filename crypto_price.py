@@ -43,7 +43,7 @@ col1.header('Input Options')
 currency_price_unit = col1.selectbox('Select currency for price', ("USD",))
 
 # Web scraping of CoinMarketCap data
-@st.cache
+@st.cache # --> This is a code that prevent our program to re-scrap the website everytime we refresh 
 def load_data():
     cmc = requests.get('https://coinmarketcap.com')
     soup = BeautifulSoup(cmc.content, 'html.parser')
@@ -55,6 +55,7 @@ def load_data():
     for listing in listings:
         coins[str(listing['id'])] = listing['slug']
 
+    # Variable names based on the website's text
     coin_name           = []
     coin_symbol         = []
     market_cap          = []
@@ -130,7 +131,7 @@ df_change ['positive_percent_change_24h'] = df_change['percent_change_24h'] > 0
 df_change ['positive_percent_change_7d'] = df_change['percent_change_7d'] > 0
 col2.dataframe(df_change)
 
-# Conditional creation of Bar plot (time frame)
+# Conditional statement to create the Bar plot (time frame) on the right side of our webpage
 col3.subheader('Bar plot of % Price Change')
 
 if percent_timeframe == '7d':
