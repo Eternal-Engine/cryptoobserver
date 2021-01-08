@@ -17,9 +17,9 @@ st.set_page_config(layout="wide")
 
 # ---------------------------------- #
 # Title
-st.title('CryptoHero')
+st.title('Crypto Observer')
 st.markdown(""" 
-    CryptoHero retrieves crypto currency's prices for the top 100 crypto currencies
+    This app retrieves cryptocurrency prices for the top 100 crypto currencies
 """)
 
 #---------------------------------#
