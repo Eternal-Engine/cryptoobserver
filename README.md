@@ -8,6 +8,6 @@
 
 **TO-DO:**
 1. Activate your virtual environment (*[What is virtual environment?](https://virtualenv.pypa.io/en/latest/)*.)
-2. Make sure you use pip version 20.3.3 (if not type thin into your terminal: "sudo pip install --update pip")
-3. Pip / Pip3 install streamlit pandas matplotlib bs4 requests
+2. Make sure you use pip version 20.3.3 (if not, type thin into your terminal: "sudo pip install --update pip")
+3. Pip / Pip3 install *[streamlit](https://www.streamlit.io/)* *[pandas](https://pandas.pydata.org/)* *[matplotlib](https://matplotlib.org/)* *[bs4](https://pypi.org/project/beautifulsoup4/)* *[requests](https://pypi.org/project/requests/)*
 4. Import all of those libraries on your your_file_name.py
