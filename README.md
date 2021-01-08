@@ -13,6 +13,6 @@
 4. Import all of those libraries on your your_file_name.py
 5. To open the webpage type this in your terminal: "streamlit run your_file_name.py
 
-### Last but not least, for new programmers, please don't just copy paste everything. Read and try to understand what each line of code is doing by reading my comments and read the actual documentation on the official webpage.
+##### Last but not least, for new programmers, please don't just copy paste everything. Read and try to understand what each line of code is doing by reading my comments and read the actual documentation on the official webpage.
 
 ### Happy grinding!
